@@ -1,0 +1,718 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    font-family: sans-serif;
+}
+
+/* css header */
+
+
+.header-menue{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+  
+}
+.whole-container{
+display: flex;
+width: 60%;
+height: 80px;
+margin: 70px 10px 0px 20px;
+justify-content: space-around;
+
+}
+.whole-container a{
+    color: black;
+}
+.Marketing{
+   margin: 0px 10px 0px 30px; 
+   text-decoration: none;
+   font-family: Arial;font-weight: bold;font-size: small;
+   
+   position: relative;
+  
+}
+.WistiaMarketing{
+    position: absolute;
+    bottom: -18px;
+    right: 5px;
+}
+.Marketing a{
+    text-decoration: none;
+}
+.Marketing:hover .wistia-for-marketing-hovered{
+    display: inline-block;
+}
+.Marketing p:hover{
+        color: #3ea9f5;
+    }
+    
+.Soapbox,.learning,.Video{
+margin: 30px 30px 0px 30px ; text-decoration: none; font-family: Arial;font-weight: bold;font-size: small;
+}
+.Soapbox p:hover{
+    color: #c894a1;
+}
+.learning p:hover{
+    color: rgb(58, 177, 106);
+}
+.Video p:hover{
+   color: rgb(28, 85, 197);
+
+    
+   
+}
+
+.image{
+    position: absolute;
+    top: 96px;
+    left: 6px;
+    margin: 0px;
+}
+
+
+.wistia-registration{
+    
+    display: flex;
+    width: 17%; 
+    height: 50px;
+    justify-content: space-between;
+    margin: 80px 20px 0px 0px;
+    
+    
+}
+.get-started {
+background-color:#3ea9f5;
+color: white;
+border-radius: 8px;
+width: 50%;
+height: 45px;
+
+}
+.get-started:hover{
+    box-shadow:  grey 4px 4px;
+
+}
+.Login{
+background-color: white;
+color:black;
+border-radius: 8px;
+width: 50%;
+height: 45px;
+margin-right: 10px;
+}
+.Login:hover{
+    box-shadow:  grey 4px 4px;
+
+}
+.wistia-marketing-display{
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+    position: relative;
+}
+
+
+/*Header menu hover*/
+.Wistia-menu{
+    display: flex;
+    width: 100%;
+}
+.wistia-for-marketing-hovered{
+    width: 1370px;
+    height: 160px;
+    background-color: white;
+    position: absolute;
+    padding-right: 0px; 
+    left: -82px;   
+    bottom: -180px; 
+    display: none;
+    
+}
+.wistia-logo{
+    margin: 30px 15px 40px 70px;
+    color: #9CA8B7;
+}
+.wistia-logo-list-1{
+    margin: 30px;
+    line-height: 1.6;
+    height: 110px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.wistia-logo-list-1 a{
+    color: #505050;
+    text-decoration: none;
+}
+.wistia-logo-list-1 a:hover{
+color:rgb(6, 145, 242);
+}
+
+.wistia-logo-list-2{
+    margin: 30px 35px 35px 20px;
+    height: 100px;
+    line-height: 1.6;
+}
+.wistia-logo-title-2{
+    color: #505050;
+    font-size: 14px;
+}
+.wistia-logo-list-2 a{
+    color: #2A2D35;
+    text-decoration: none;
+}
+.wistia-logo-list-2 a:hover{
+    color: black;
+}
+.wistia-logo-list-3{
+    margin: 28px 35px 35px 20px;
+    height: 100px;
+    line-height: 1.6;
+    font-size: 14px;
+}
+.wistia-logo-title-3{
+    color: #505050;
+}
+.wistia-logo-list-3 a{
+    color: #2A2D35 ;
+    text-decoration: none;
+}
+.wistia-logo-list-3 a:hover{
+    color:black ;
+}
+
+.wistia-logo-list-4{
+    margin: 30px 35px 35px 20px;
+    height: 90px;
+    line-height: 1.6;
+    font-size: 14px;
+}
+.wistia-logo-title-3{
+    color: #505050;
+}
+.wistia-logo-list-4 a{
+    color: #2A2D35;
+    text-decoration: none;
+}
+.wistia-logo-list-4 a:hover{
+    color:black ;
+}
+.wistia-logo-list-button{
+    margin: 35px 0px 70px 60px;
+    width: 14%;
+}
+.free-account{
+    height: 40px ;
+    width: 100%;
+    border-radius: 10px;
+    background-color:rgb(6, 145, 242);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+       
+
+}
+.free-account:hover{
+    box-shadow:  grey 4px 4px;
+
+}
+.soapbox-list-menu{
+    display: flex;
+    width: 100%;
+}
+.learning-center-hovered{
+    display: flex;
+    width: 100%;
+}
+/*css main Video section*/
+
+.wistia-presentation-video{
+background-color: #c894a1;
+display :flex;
+justify-content: space-between;
+width: 100%;
+height: 600px;
+}
+.wistia-presentation{
+flex-direction: column;
+height: 45%;
+width: 60%;
+margin:160px 50px 102px 100px;
+}
+.affichage-video{
+height: 60%;
+width: 60%;
+margin:102px 102px; 
+}
+.content{
+    font-family: sans-serif;
+    font-size: 38px;
+    padding-top: 30px;    
+    height: 40%;
+}
+
+.video{
+    height: 32.8%; 
+     
+}
+
+.watch-video{
+   border: 1px solid white;
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 80%;
+    width: 55%;
+    color: #363945;
+    margin:0 ;
+    border-radius: 9px;
+
+}
+.watch-video:hover{
+    box-shadow:  grey 8px 8px;
+
+}
+.video1{
+    width: 100%;
+    height: 100%;
+}
+/*Main Section 2 (Card infomation)*/
+.container-Cards{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    
+
+}
+.container-text{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fed24a;
+    flex-direction: column-reverse;
+    width: 33.33%;
+}
+
+.container-button{
+    height: 20%;
+    margin: 32px 50px 10px;
+    
+}
+.Start{
+    border: 2px solid white;
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 19%;
+    width: 35%;
+    color: #363945;
+    background-color: #fed24a;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px 20px 50px;
+}
+.Start:hover{
+    box-shadow:  grey 4px 4px;
+    background-color: white;
+}
+.Start:hover ~svg{
+fill: rgb(231, 184, 199);
+}
+.container-paragraphe{
+color:black;
+font-size : 16px;
+font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+font-family: Arial ;
+font-weight: 700 ;
+margin: 10px 50px;
+width: 70%;
+line-height: 1.6;
+
+}
+.container-title{
+   font-family: arial; 
+   color: blanchedalmond;
+   margin: 10px 50px;
+   width: 63%;
+
+}
+.container-image{
+    margin: 10px 50px  ;
+    padding: 0;
+}
+.IconBookChapter-3{
+    margin-top: 5px;
+    margin-left: 50px;
+    color: skyblue;
+}
+
+.container-text-2{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(81, 194, 159);
+    flex-direction: column-reverse;
+    width: 33.33%;
+}
+
+.container-button-2{
+    height: 20%;
+    margin: 32px 50px 10px;
+    
+}
+.Start-2{
+    border: 2px solid white;
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 95%;
+    width: 45%;
+    color: #363945;
+    background-color: #51c29f;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container-paragraphe-2{
+color:black;
+font-size : 16px;
+font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+font-family: Arial ;
+font-weight: 700 ;
+margin: 10px 50px;
+width: 65%;
+line-height: 1.6;
+
+}
+.container-title-2{
+   font-family: arial; 
+   color: blanchedalmond;
+   margin: 10px 50px;
+   width: 81.6%;
+
+}
+.container-image-2{
+    margin: 10px 50px  ;
+    padding: 0;
+}
+.container-text-3{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(62, 169, 245);
+    flex-direction: column-reverse;
+    width: 33.33%
+}
+
+.container-button-3{
+    height: 20%;
+    margin: 32px 50px 10px;
+    
+}
+.Start-3{
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 95%;
+    width: 45%;
+    color: #363945;
+    background-color:rgb(62, 169, 245);
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    border:2px solid whitesmoke;
+}
+.container-paragraphe-3{
+color:black;
+font-size : 16px;
+font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+font-family: Arial ;
+font-weight: 700 ;
+margin: 15px 50px;
+width: 70%;
+line-height: 1.6;
+
+}
+.container-title-3{
+   font-family: arial; 
+   color: blanchedalmond;
+   margin: 20px 50px;
+   width: 63%;
+
+}
+.container-image-3{
+    margin: 10px 50px  ;
+    padding: 0;
+}
+/*main-section-3*/
+.wistia-monkey-section{
+    width: 100%;
+    height: 330px;
+}
+.container-monkey{
+    display: flex;
+    justify-content:space-between;
+    padding: 120px 50px ;
+}
+.monkey-text{
+    color: #9CA8B7;
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+/**main-section-4*/
+.hovered-img-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}   
+
+.first-image{
+opacity: 100;
+}
+.first-card-container:hover{
+opacity: 0.7;
+display: flex;
+}
+.first-card-img-container{
+    margin-left: 100px;
+    
+}
+.first-card-title{
+    padding: 0px 0px;
+}
+
+.first-card-text{
+    padding: 0px 0;
+    line-height: 1.6;
+    font-family:Arial ;
+}
+.container{
+ margin: 0px 200px;
+display: flex;
+justify-content: space-between;
+font-size : 16px;
+font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+font-family: Arial ;
+font-weight: 400 ;
+    
+}
+
+.container p{
+    line-height: 1.6;
+}
+.card-container{
+}
+.img-h{
+   
+    width: 299px;
+    height: 214px;
+    opacity: 3;
+}
+.img-container{
+    position: relative;
+}
+h3, p,a {
+    margin: 10px 0;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    background-color: #df83db;
+    width: 299px;
+    height: 214px;
+    opacity: 0;
+}
+.overlay:hover{
+    opacity: 0.7;
+}
+
+.third-card-img-container{
+    margin-right: 100px;
+}
+.third-card-title{
+    padding: 0px 0px;
+}
+
+.third-card-text{
+    padding: 0px 0;
+    line-height: 1.6;
+    
+    font-family:Arial ;
+}
+.third-card-link{
+    padding: 15px 0px 0px;
+}
+/*main-final-section*/
+.update-wistia{
+    width: 100%;
+    height: 65px;
+    background-color: #efefef;
+    margin-top: 50px;
+}
+.update-text{
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: 600;
+    font-size: 17px;
+    font-family:Arial ;
+}
+/*Footer-section*/
+.footer-all-sections{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #2a2d35;
+}
+.footer-info{
+    width: 35%;
+    flex-direction: column;
+}
+.footer-title{
+    line-height: 1.6;
+    font-family:Arial;
+    color: white;
+    margin: 50px 50px 20px;
+}
+.footer-text{
+    line-height: 1.6;
+    font-family:Arial;
+    color: white;
+    margin: 5px 50px 50px;
+}
+.footer-text a{
+    color: #3AB16A;
+    font-family:Arial;
+    text-decoration: none;
+}
+.footer-text a:hover{
+text-decoration: underline;
+color: green;
+
+}
+.wistia-footer-features{
+    display: flex;
+    justify-content: space-around;
+    width : 65%
+    
+}
+
+.Marketing{
+    line-height: 1.6;
+    font-family:Arial;
+    margin: 50px 10px;
+    width: 20%;
+}
+.features-title{
+    color: #9CA8B7;
+}
+.feature-text-1 a{
+    color: #F9F9F9;
+    text-decoration: none;
+}
+.feature-text-1 a:hover{
+    text-decoration: underline;
+    color: #F9F9F9;
+    font-weight: bold;
+
+}
+.features-text-2 a{
+    color: #3EA9F5;
+    text-decoration: none;
+}
+.features-text-2 a:hover{
+    text-decoration: underline;
+    color:#3EA9F5 ;
+    font-weight: bold;
+
+}
+.wistia-Soapbox{
+    line-height: 1.6;
+    font-family:Arial;
+    margin: 25px 10px 50px 0px;
+    width: 16.25%;
+}
+.Soapbox{
+    margin-left: 0px;
+}
+.Soapbox-title{
+    color: #9CA8B7;
+}
+.Soapbox-text-1 a{
+    color: #F9F9F9;
+    text-decoration: none;
+}
+.Soapbox-text-1 a:hover{
+    text-decoration: underline;
+    color: #F9F9F9;
+    font-weight: bold;
+
+}
+.Soapbox-text-2 a{
+    color: #3EA9F5;
+    text-decoration: none;
+}
+.Soapbox-text-2 a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #3EA9F5;
+
+}
+.wistia-footer-company{
+    line-height: 1.6;
+    font-family:Arial;
+    margin: 50px 10px;
+    width: 16.25%;
+}
+.Company-title{
+    color: #9CA8B7;
+}
+.Company-text a{
+    color: #F9F9F9;
+    text-decoration: none;
+}
+.Company-text a:hover{
+    text-decoration: underline;
+    color: #F9F9F9;
+    font-weight: bold;
+
+}
+.Wistia-footer-support{
+    line-height: 1.6;
+    font-family:Arial;
+    margin: 50px 10px;
+    width: 16.25%;
+}
+.support-title{
+    color: #9CA8B7;
+}
+.support-text a{
+    color: #F9F9F9;
+    text-decoration: none;
+
+}
+.support-text a:hover{
+    text-decoration: underline;
+    color: #F9F9F9 ;
+    font-weight: bold;
+
+}
+.rights-reserved{
+    border: 1px solid #2A2D35;
+    height: 80px; 
+    background-color: #2A2D35;   
+}
+.bottum-footer{
+    
+    width: 35%;
+    margin:30px 500px ;
+    font-family: Arial;
+    font-size: 17.7px;
+    font-weight: 400;
+    color: #B2B9C1;
+    background-color: #2A2D35;
+}
+.bottum-footer a{
+color:#B2B9C1 ;
+}
+.bottum-footer a:hover{
+    color:green;
+}
